@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    height: 35px;
+    width: 100wh;
+    background-color: brown;
+    z-index: 1;
+    background: linear-gradient(to right, #000000, #e74c3c);
+   
+}
+h4{
+   
+    text-align: center;
+    /* margin-top: 5px; */
+    color: white;
+
+}
+.second-banner{
+    border: 2px solid black;
+    height: 45px;
+    width: 100wh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+
+}
+.first-ul{
+   text-align: center;
+   display: flex;
+   gap: 20px;
+   list-style: none;
+   color: white;
+   justify-content: center;
+   align-items: center;
+   
+}
+li:hover{
+    color: burlywood;
+    cursor: pointer;
+}
+
+
+input{
+    width: 450px;
+    height: 22px;
+    outline: none;
+    border: none;
+}
+.search-button{
+    margin-left: 2px;
+    padding-left: 2px;
+}
+.bgh-image{
+    width: 100wh;
+    height:53vh;
+    background: url("https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    
+  
+
+}
+h1, p{
+    color: white;
+   
+}
+header{
+    width: 850px;
+    background-color: rgba(149, 35, 35, 0.4);
+    height: 200px;
+    padding: 2%;
+    margin-left: 200px;
+
+    
+}
+.bsimage{
+    height: 250px;
+    width: 100wh;
+    background-color:rgb(190, 182, 182);
+    z-index: -10;
+}
+.bs-2image{
+    height: 200px;
+    width:  1200px;
+    background-color: grey;
+    position: relative;
+    top: 25px;
+    left: 150px;
+    opacity: 0.8;
+    
+    
+}
+img{
+    height: 120px;
+    position: relative;
+    left: 20px;
+    width: 100px;
+    border: 2px solid black;
+    
+}
+.category-1{
+    width: 100wh;
+    height: 700px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+
+}
+.category-2{
+    width: 80%;
+    height: 80%;
+    background: linear-gradient(to right, #000000, #e74c3c);
+
+    /* background-color: #e74c3c; */
+    /* position: absolute;
+    left: 10%;
+    top: 10%; */
+    /* margin: auto;
+    top: 100px; */
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+   
+}
+
+
+.textarea{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 40%;
+}
+
+.inner-boxes {
+    width: 60%;
+    position: relative;
+    
+}
+.inner-boxes img{
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 5px white ;
+    
+}
+.inner-boxes img:hover{
+    scale: 1.2;
+}
